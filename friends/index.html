@@ -267,7 +267,7 @@
         <div class="brand">
             <div class="title center-align">
                 
-                随笔
+                    subtitle
                 
             </div>
 
@@ -282,9 +282,7 @@
 
 
 <script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+    $('.bg-cover').css('background-image', 'url(/medias/banner/0.jpg)');
 </script>
 
 
@@ -496,58 +494,16 @@
                             <div class="card frind-card1">
                                 <div class="frind-ship">
                                     <div class="title">
-                                        <img src="http://image.luokangyuan.com/1_qq_27922023.jpg" alt="img">
+                                        <img src="https://img-blog.csdnimg.cn/20200306162957298.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzQ4ODk1OA==,size_16,color_FFFFFF,t_70" alt="img">
                                         <div>
-                                            <h1 class="friend-name">码酱</h1>
-                                            <p style="position: relative;top: -35px;">我不是大佬，只是在追寻大佬的脚步</p>
+                                            <h1 class="friend-name">张国胜</h1>
+                                            <p style="position: relative;top: -35px;">去他的网站看看</p>
                                         </div>
                                     </div>
                                     <div class="friend-button">
-                                        <a href="http://luokangyuan.com/" target="_blank"
+                                        <a href="https://www.codepandas.cn/" target="_blank"
                                             class="button button-glow button-rounded button-caution">
-                                            前去学习
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        
-                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
-                            <div class="card frind-card2">
-                                <div class="frind-ship">
-                                    <div class="title">
-                                        <img src="http://image.luokangyuan.com/4027734.jpeg" alt="img">
-                                        <div>
-                                            <h1 class="friend-name">闪烁之狐</h1>
-                                            <p style="position: relative;top: -35px;">编程界大佬，技术牛，人还特别好，不懂的都可以请教大佬</p>
-                                        </div>
-                                    </div>
-                                    <div class="friend-button">
-                                        <a href="https://blinkfox.github.io/" target="_blank"
-                                            class="button button-glow button-rounded button-caution">
-                                            前去学习
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        
-                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
-                            <div class="card frind-card3">
-                                <div class="frind-ship">
-                                    <div class="title">
-                                        <img src="http://image.luokangyuan.com/avatar.jpg" alt="img">
-                                        <div>
-                                            <h1 class="friend-name">ja_rome</h1>
-                                            <p style="position: relative;top: -35px;">平凡的脚步也可以走出伟大的行程</p>
-                                        </div>
-                                    </div>
-                                    <div class="friend-button">
-                                        <a href="https://me.csdn.net/jlh912008548" target="_blank"
-                                            class="button button-glow button-rounded button-caution">
-                                            前去学习
+                                            CS码农
                                         </a>
                                     </div>
                                 </div>
@@ -591,60 +547,6 @@
 
     <footer class="page-footer bg-color">
     
-        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
-<style>
-    .aplayer .aplayer-lrc p {
-        
-        display: none;
-        
-        font-size: 12px;
-        font-weight: 700;
-        line-height: 16px !important;
-    }
-
-    .aplayer .aplayer-lrc p.aplayer-lrc-current {
-        
-        display: none;
-        
-        font-size: 15px;
-        color: #42b983;
-    }
-
-    
-    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
-        left: -66px !important;
-    }
-
-    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
-        left: 0px !important;
-    }
-
-    
-</style>
-<div class="">
-    
-    <div class="row">
-        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
-                   server="netease"
-                   type="playlist"
-                   id="503838841"
-                   fixed='true'
-                   autoplay='false'
-                   theme='#42b983'
-                   loop='all'
-                   order='random'
-                   preload='auto'
-                   volume='0.7'
-                   list-folded='true'
-        >
-        </meting-js>
-    </div>
-</div>
-
-<script src="/libs/aplayer/APlayer.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
-
-    
     <div class="container row center-align" style="margin-bottom: 0px !important;">
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
@@ -677,6 +579,10 @@
         </div>
         <div class="col s12 m4 l4 social-link social-statis">
 
+
+    <a href="https://blog.csdn.net/qq_44486550" class="tooltipped" target="_blank" data-tooltip="关注我的CSDN: https://blog.csdn.net/qq_44486550" data-position="top" data-delay="50">
+        <i class="fab fa-csdn">CSDN</i>
+    </a>
 
 
 
@@ -748,8 +654,6 @@ $(function () {
     })();
 </script>
 
-    
-    <script src="/libs/others/clicklove.js" async="async"></script>
     
     
     <script async src="/libs/others/busuanzi.pure.mini.js"></script>
